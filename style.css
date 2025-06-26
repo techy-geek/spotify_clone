@@ -157,16 +157,19 @@ a{
     border-radius: 0.5rem;
     padding: 1rem;
     margin-top:1rem ;
+     margin-left: 1rem;
 }
 
 .card-container{
     display: flex;
     flex-wrap: wrap;
+   
 }
 
 .card-img{
     width: 100%;
     border-radius: 0.5rem;
+    
 }
 
 .card-title{
