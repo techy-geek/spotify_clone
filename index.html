@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify - Web Player : Music for everyone</title>
+     <link rel="icon" href="./assets/logo.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" style="opacity: 1;">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i> 
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">  
+                <div class="options">
+                    <div class="lib-option nav-option">
+                    <img src="./assets/library_icon.png">
+                    <a href="#">Your library</a>
+                    </div>
+                    <div class="icons nav-option">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    
+                </div>
+                <div class="lib-box">
+                        <div class="box">
+                            <div class="box-p1">Create your first playlist</div>
+                            <div class="box-p2">It's easy , We'll help you <br><br></b></div>
+                            <button class="badge">Create Playlist</button>
+                        </div>
+                         <div class="box">
+                            <div class="box-p1">Let's find some podcasts to follow</div>
+                            <div class="box-p2">We'll keep you updated on new episodes<br><br></b></div>
+                            <button class="badge">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="main_content">
+            <div class="sticky-nav"></div>
+            <div class="cards"></div>
+        </div>
+        <div class="music_player">music_player</div>
+    </div>
 </body>
 </html>
